@@ -1,0 +1,14 @@
+# dependencies and build output (run `npm install && npm run build` in web/)
+web/node_modules/
+web/dist/
+
+# runtime files written next to server.py
+.agents-panel.pid
+agents-panel.log
+__pycache__/
+
+# your own expected agent counts (see expected.example.json)
+expected.json
+
+# editor settings
+.vscode/

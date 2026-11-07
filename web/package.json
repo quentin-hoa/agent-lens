@@ -1,0 +1,40 @@
+{
+  "name": "agents-panel-web",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Interface du panneau des agents Claude Code (servie par ../server.py)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.2.5",
+    "@fontsource-variable/geist-mono": "5.2.5",
+    "@phosphor-icons/react": "2.1.7",
+    "clsx": "2.1.1",
+    "cmdk": "1.1.1",
+    "framer-motion": "12.9.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1",
+    "sonner": "2.0.3",
+    "zustand": "5.0.3"
+  },
+  "overrides": {
+    "motion-dom": "12.9.1",
+    "motion-utils": "12.8.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "0.5.16",
+    "@tailwindcss/vite": "4.1.10",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "@vitejs/plugin-react": "4.4.1",
+    "tailwindcss": "4.1.10",
+    "typescript": "5.8.3",
+    "vite": "6.3.5"
+  }
+}

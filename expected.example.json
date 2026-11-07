@@ -1,0 +1,7 @@
+{
+  "my-workflow-name": {
+    "Research": [10, 12],
+    "Verify": [10, 12],
+    "Synthesis": [1, 1]
+  }
+}
